@@ -14,6 +14,10 @@ slackへメッセージを送信するサンプルです
 
 6.slack.propertiesに3と5で取得した内容を追記する。 場所「src/main/resources/slack.properties」
 
+　slack.token=5で取得したトークン
+
+　slack.channel.id=3で取得したチャンネルID
+
 7.postmanにrequest用APIのデータをimportする。場所「/JOUJI-20220217-slack/postmanImportdata」
 
 8.importしたデータからのslackMesageSendAPIを選択して、SENDボタンを押下する
