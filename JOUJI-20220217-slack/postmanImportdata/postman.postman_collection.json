@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "dbd1a3d1-e207-4239-8da4-7dc4eaacbeeb",
+		"name": "postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "slackMesageSend",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Test Tarou\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/slack/mesageSend",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"slack",
+						"mesageSend"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
